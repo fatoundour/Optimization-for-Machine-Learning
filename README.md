@@ -6,7 +6,7 @@ This academic project explores two numerical optimization problems using **PyTor
 
 > 📊 **The main notebook, [`homework.ipynb`](homework.ipynb), contains the experiments, figures and detailed discussion.**
 
-## Part I — Nesterov acceleration and restart
+## Part I - Nesterov acceleration and restart
 
 Two implementations of Nesterov's accelerated gradient are compared on the **two-dimensional Rosenbrock function**:
 
@@ -15,7 +15,7 @@ Two implementations of Nesterov's accelerated gradient are compared on the **two
 
 **Reported finding:** with the hyperparameters explored in the notebook, vanishing friction gives faster initial progress but shows oscillations; speed restart is more regular and stable. This conclusion concerns the experimental conditions tested, not every possible optimization problem.
 
-## Part II — Learning-rate scaling in neural networks
+## Part II - Learning-rate scaling in neural networks
 
 A one-hidden-layer **ReLU neural network** is trained using full-batch gradient descent and **mean squared error** to approximate a noisy sine function.
 
