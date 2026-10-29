@@ -6,7 +6,7 @@ Ce projet académique étudie deux problématiques d'optimisation à l'aide de *
 
 > 📊 **Les expériences, les graphiques et les analyses détaillées sont disponibles directement dans le notebook principal : [`homework.ipynb`](homework.ipynb).**
 
-## Partie 1 — Gradient accéléré de Nesterov : avec et sans redémarrage
+## Partie 1 - Gradient accéléré de Nesterov : avec et sans redémarrage
 
 Cette partie compare deux variantes de la méthode du gradient accéléré de Nesterov sur la **fonction de Rosenbrock en dimension 2** :
 
@@ -15,7 +15,7 @@ Cette partie compare deux variantes de la méthode du gradient accéléré de Ne
 
 **Résultat présenté dans le notebook :** pour les paramètres testés, la méthode sans redémarrage progresse plus rapidement au début, mais présente des oscillations. La méthode *Speed Restart* offre un comportement plus régulier et stable. Cette conclusion concerne les expériences réalisées et ne constitue pas une supériorité générale de la méthode.
 
-## Partie 2 — Optimisation du taux d'apprentissage d'un réseau de neurones
+## Partie 2 - Optimisation du taux d'apprentissage d'un réseau de neurones
 
 L'objectif est d'étudier comment adapter le **pas d'apprentissage** à la taille d'un réseau de neurones.
 
